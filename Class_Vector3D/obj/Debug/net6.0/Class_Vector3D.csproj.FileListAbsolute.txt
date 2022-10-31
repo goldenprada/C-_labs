@@ -1,0 +1,15 @@
+C:\Users\Marat\Desktop\C#\Class_Vector3D\bin\Debug\net6.0\Class_Vector3D.exe
+C:\Users\Marat\Desktop\C#\Class_Vector3D\bin\Debug\net6.0\Class_Vector3D.deps.json
+C:\Users\Marat\Desktop\C#\Class_Vector3D\bin\Debug\net6.0\Class_Vector3D.runtimeconfig.json
+C:\Users\Marat\Desktop\C#\Class_Vector3D\bin\Debug\net6.0\Class_Vector3D.dll
+C:\Users\Marat\Desktop\C#\Class_Vector3D\bin\Debug\net6.0\Class_Vector3D.pdb
+C:\Users\Marat\Desktop\C#\Class_Vector3D\obj\Debug\net6.0\Class_Vector3D.csproj.AssemblyReference.cache
+C:\Users\Marat\Desktop\C#\Class_Vector3D\obj\Debug\net6.0\Class_Vector3D.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marat\Desktop\C#\Class_Vector3D\obj\Debug\net6.0\Class_Vector3D.AssemblyInfoInputs.cache
+C:\Users\Marat\Desktop\C#\Class_Vector3D\obj\Debug\net6.0\Class_Vector3D.AssemblyInfo.cs
+C:\Users\Marat\Desktop\C#\Class_Vector3D\obj\Debug\net6.0\Class_Vector3D.csproj.CoreCompileInputs.cache
+C:\Users\Marat\Desktop\C#\Class_Vector3D\obj\Debug\net6.0\Class_Vector3D.dll
+C:\Users\Marat\Desktop\C#\Class_Vector3D\obj\Debug\net6.0\refint\Class_Vector3D.dll
+C:\Users\Marat\Desktop\C#\Class_Vector3D\obj\Debug\net6.0\Class_Vector3D.pdb
+C:\Users\Marat\Desktop\C#\Class_Vector3D\obj\Debug\net6.0\Class_Vector3D.genruntimeconfig.cache
+C:\Users\Marat\Desktop\C#\Class_Vector3D\obj\Debug\net6.0\ref\Class_Vector3D.dll
