@@ -29,7 +29,7 @@ var hist_width = (max-min)/11;
 double[] arr_bars = new double[12];
 arr_bars[0] = min;
 var last = min;
-for(var i=1;i<12;i++) //начала-концы отрезков(опорные точки)
+for(var i=1;i<12;i++) 
 {   
     arr_bars[i] = last+hist_width;
     last=arr_bars[i];
@@ -53,37 +53,13 @@ for(var i=0;i<11;i++)
     arr_count[i] = count;
 }
 for(var i=0; i<arr_count.Length;i++) Console.WriteLine("Count of {0} bar is: {1}",i+1, arr_count[i]);
-// var bucketeer = new Dictionary<double, double>();
-// for (double curr = arr.Min(); curr <= arr.Max(); curr += hist_width)
-// {
-//         // Counting the values that can be put in the bucket and dividing them on values.Count()
-//         var count = arr.Where(x => x >= arr.Min() && x < arr.Min() + hist_width).Count();
-//         bucketeer.Add(arr.Min(), count / arr.Count());
-// }
-// Console.WriteLine(bucketeer);
+
 Console.WriteLine("Min of the array is: {0}", min);
 Console.WriteLine("Max of the array is: {0}", max);
 Console.WriteLine("Dx is: {0}", hist_width);
 Console.WriteLine("Mean of array is {0}, variance is {1}", mean, variance);
 
-// var model = new PlotModel();
-// var axe_y = new LinearAxis();
-// axe_y.Position = AxisPosition.Left;
-// axe_y.Title = "y";
-// axe_y.TitlePosition = 0.9;
-// model.Axes.Add(axe_y);
 
-// var axe_x = new LinearAxis();
-// axe_x.Position = AxisPosition.Bottom;
-// axe_x.Title = "x";
-// axe_x.TitlePosition = 0.9;
-// model.Axes.Add(axe_x);
-
-// var series = new HistogramSeries();
-// var png_exporter = new PngExporter(800, 600, 100);
-// using var png_file = File.Create("hist.png");
-// png_exporter.Export(model, png_file);
-// Console.WriteLine("");
 
 static double find_mean(double []a)
 {
