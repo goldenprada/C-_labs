@@ -23,7 +23,7 @@ var best_stud_rating_avg = best_students.Average(s => s.Rating);
 Console.WriteLine(avg_rating);
 Console.WriteLine(best_stud_rating_avg);
 foreach(var s in best_students) Console.WriteLine(s);
-foreach(var s in students.Where(s => s.Second_name[0]=='К')) Console.WriteLine(s); //ну вот так вот where делаем
+foreach(var s in students.Where(s => s.Second_name[0]=='К')) Console.WriteLine(s); 
 Readcsv(name_csv_file, out var ID,
                     out var first_,
                     out var last_,
